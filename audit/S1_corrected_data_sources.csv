@@ -1,0 +1,9 @@
+Phenotype,Source,Accession_or_DOI,Ancestry,N_or_cases_controls,Build_status,Phenotype_definition
+终生吸烟,Wootton/UK Biobank,10.5523/bris.10i96zb8gm0j81yz0q6ztei23d,European,462690,原文件readme待完整核定；按rsID协调,吸烟启动、量、持续和戒烟的终生指数
+BMI,GIANT/Locke2015,ieu-a-835,European,322154,查询HG19/GRCh37,标准化BMI；单位SD
+CAD,CARDIoGRAMplusC4D/Nikpay2015,ieu-a-7,"Mixed, 77% European",60801/123504,查询HG19/GRCh37,原研究冠心病/CAD病例
+PAD,FinnGen R5,finn-b-I9_PAD,European,7098/206541,OpenGWAS HG19/GRCh37；原FinnGenGRCh38转换需readme,I9_PAD，包括I739/I702和糖尿病周围循环并发症及I9_PERIPH
+AIS,MEGASTROKE/Malik2018,ebi-a-GCST005843,Multiancestry TRANS,60341/454450 (nominal; original paper + deCODE footnote),查询HG19/GRCh37,任何缺血性卒中；原始TRANS文件；S14记录推导和来源差异
+LAA,MEGASTROKE/Malik2018,ebi-a-GCST005840,Multiancestry TRANS,6688/345629 (nominal; original paper + deCODE footnote),查询HG19/GRCh37,大动脉粥样硬化卒中；原始TRANS文件；S14记录推导和来源差异
+SVS,MEGASTROKE/Malik2018,ebi-a-GCST005841,Multiancestry TRANS,11710/391899 (nominal; original paper + deCODE footnote),查询HG19/GRCh37,小血管卒中；原始TRANS文件；S14记录推导和来源差异
+CES,MEGASTROKE/Malik2018,ebi-a-GCST005842,Multiancestry TRANS,9006/403807 (nominal; original paper + deCODE footnote),查询HG19/GRCh37,心源性栓塞性卒中；原始TRANS文件；S14记录推导和来源差异

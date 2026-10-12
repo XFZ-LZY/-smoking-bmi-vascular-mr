@@ -1,0 +1,13 @@
+key,accession,file_ancestry,source_file,SNP,source_SNP,effect_allele_source,other_allele_source,effect_allele_frozen,other_allele_frozen,source_beta,source_se,frozen_beta,frozen_se,aligned_sign,abs_beta_diff,abs_se_diff
+laa,GCST005840,TRANS,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005840/MEGASTROKE.3.LAS.TRANS.out,rs6779302,rs9881798,A,C,C,A,0.0044,0.021,-0.0044,0.021,-1,0.0,0.0
+laa,GCST005840,TRANS,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005840/MEGASTROKE.3.LAS.TRANS.out,rs1167827,rs794369,T,C,T,C,-0.0442,0.0225,-0.0442,0.0225,1,0.0,0.0
+svs,GCST005841,TRANS,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005841/MEGASTROKE.5.SVS.TRANS.out,rs6779302,rs9881798,A,C,C,A,-0.0354,0.0179,0.0354,0.0179,-1,0.0,0.0
+svs,GCST005841,TRANS,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005841/MEGASTROKE.5.SVS.TRANS.out,rs6778080,rs7432077,T,C,C,T,-0.0379,0.025,0.0379,0.025,-1,0.0,0.0
+svs,GCST005841,TRANS,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005841/MEGASTROKE.5.SVS.TRANS.out,rs61796681,rs61795109,A,G,A,G,-0.0076,0.0383,-0.0076,0.0383,1,0.0,0.0
+svs,GCST005841,TRANS,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005841/MEGASTROKE.5.SVS.TRANS.out,rs1167827,rs794369,T,C,T,C,-0.029,0.0195,-0.029,0.0195,1,0.0,0.0
+svs,GCST005841,TRANS,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005841/MEGASTROKE.5.SVS.TRANS.out,rs7899106,rs7072722,A,G,G,A,0.0197,0.0463,-0.0197,0.0463,-1,0.0,0.0
+svs,GCST005841,TRANS,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005841/MEGASTROKE.5.SVS.TRANS.out,rs663129,rs571312,A,C,A,C,0.0035,0.0199,0.0035,0.0199,1,0.0,0.0
+ces,GCST005842,TRANS,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005842/MEGASTROKE.4.CES.TRANS.out,rs6779302,rs9881798,A,C,C,A,0.0199,0.0176,-0.0199,0.0176,-1,0.0,0.0
+ces,GCST005842,TRANS,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005842/MEGASTROKE.4.CES.TRANS.out,rs1167827,rs794369,T,C,T,C,-0.002,0.0186,-0.002,0.0186,1,0.0,0.0
+ais,GCST005843,TRANS,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005843/MEGASTROKE.2.AIS.TRANS.out,rs6779302,rs9881798,A,C,C,A,0.0081,0.0087,-0.0081,0.0087,-1,0.0,0.0
+ais,GCST005843,TRANS,https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005843/MEGASTROKE.2.AIS.TRANS.out,rs1167827,rs794369,T,C,T,C,-0.0315,0.0093,-0.0315,0.0093,1,0.0,0.0

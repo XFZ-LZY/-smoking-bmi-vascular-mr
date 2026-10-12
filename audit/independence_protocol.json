@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-12T14:20:14.012361+00:00",
+  "purpose": "Post-hoc instrument-independence sensitivity audit; not a preregistered primary analysis",
+  "source": "GWAS Catalog REST API v2 curated associations",
+  "threshold": 5e-08,
+  "lookup": "All exact rsIDs present in frozen univariable, bidirectional and multivariable instrument sets. No outcome-based instrument selection. No LD proxies in this exact-variant screen.",
+  "primary_screen": {
+    "education_cognition": "educational|education attainment|years of schooling|intelligence|cognitive ability|cognitive performance",
+    "socioeconomic": "household income|deprivation|socioeconomic|socio-economic",
+    "alcohol": "alcohol|drinks per week|drinking behavior",
+    "physical_activity": "physical activity|sedentary|accelerometer|exercise"
+  },
+  "expanded_screen": {
+    "blood_pressure": "blood pressure|hypertension",
+    "lipids": "cholesterol|triglyceride|apolipoprotein|lipoprotein",
+    "glycemia": "diabetes|glycated hemoglobin|glycated haemoglobin|fasting glucose|fasting insulin|insulin resistance"
+  },
+  "exclusions": "Study vascular endpoints never trigger exclusions. Smoking and adiposity phenotypes retained. Primary screen flags potential upstream/shared pathways, expanded cardiometabolic screen may also remove vertical pathways. Association alone does not establish horizontal pleiotropy or independence violation.",
+  "models": "Retain all original primary models; compare exact-rsID primary screen and expanded screen in six IVW models, six two-exposure MVMR models and two bidirectional models. Recompute FDR within each original six-outcome family and each sensitivity scheme; compute conditional F after removal.",
+  "proxy_amendment": {
+    "reason": "Source identity verification identified actual proxies retained under target rsID labels. Add all archived actual proxies to exact-variant lookup, without changing phenotype thresholds.",
+    "date_utc": "2026-10-12T14:41:51.749558+00:00",
+    "mapping": {
+      "rs6779302": [
+        "rs9881798"
+      ],
+      "rs1167827": [
+        "rs794369"
+      ],
+      "rs12244388": [
+        "rs10786719"
+      ],
+      "rs17066856": [
+        "rs57636386"
+      ],
+      "rs11768481": [
+        "rs11762736"
+      ],
+      "rs7899106": [
+        "rs7072722"
+      ],
+      "rs663129": [
+        "rs571312"
+      ],
+      "rs6778080": [
+        "rs7432077"
+      ],
+      "rs61796681": [
+        "rs61795109"
+      ]
+    },
+    "screening_rule": "A target is flagged if it or any of its actually used proxies meets the frozen screen. Apply the same exclusion set across outcomes. No genome-wide LD expansion."
+  }
+}
